@@ -51,6 +51,7 @@ body {
     flex-direction: column;
 }
 .card h1 {
+    font-family: "Oxanium", sans-serif;
     font-size: 34px;
     font-weight: bold;
     margin-bottom: 0;
