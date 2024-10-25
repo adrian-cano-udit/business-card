@@ -118,6 +118,7 @@ body {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+/*
 :root {
     --color-bg1: rgb(108, 0, 162);
     --color-bg2: rgb(0, 17, 82);
@@ -167,7 +168,7 @@ body {
     }
 }
 
-/* .gradient-bg {
+.gradient-bg {
     width: 100vw;
     height: 100vh;
     position: relative;
