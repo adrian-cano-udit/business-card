@@ -26,7 +26,6 @@ body {
     width: 478px;
     max-height: 320px;
     padding: 24px;
-    border-radius: 3px;
     border: 0;
     box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
         12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
@@ -41,7 +40,6 @@ body {
 }
 
 .card .circle {
-    border-radius: 3px;
     width: 150px;
     height: 150px;
     background: black;
@@ -50,6 +48,7 @@ body {
     top: 0;
     background-image: linear-gradient(to top, #370f2c 0%, #a6c1ee 100%);
     border-bottom-left-radius: 170px;
+    mix-blend-mode: difference;
 }
 
 .card .content {
@@ -62,6 +61,8 @@ body {
     font-size: 34px;
     font-weight: bold;
     margin-bottom: 1rem;
+    z-index: 2;
+    position: relative;
 }
 .card h2 {
     font-size: 18px;
@@ -118,7 +119,7 @@ body {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-/*
+
 :root {
     --color-bg1: rgb(108, 0, 162);
     --color-bg2: rgb(0, 17, 82);
@@ -309,7 +310,7 @@ body {
 
         opacity: 0.7;
     }
-} */
+}
 
 /* MEDIA QUERY */
 
