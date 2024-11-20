@@ -35,7 +35,7 @@ body {
 
 .card .title {
     padding-right: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 1.6rem;
     line-height: 1.4;
 }
 
@@ -48,34 +48,34 @@ body {
     top: 0;
     background-image: linear-gradient(to top, #370f2c 0%, #a6c1ee 100%);
     border-bottom-left-radius: 170px;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
 }
 
 .card .content {
-    margin-top: 25px;
+    margin-top: 1.6rem;
     display: flex;
     flex-direction: column;
 }
 .card h1 {
     font-family: "Oxanium", sans-serif;
-    font-size: 34px;
+    font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
     z-index: 2;
     position: relative;
 }
 .card h2 {
-    font-size: 18px;
+    font-size: 1.1rem;
     letter-spacing: 0.5px;
     font-weight: 300;
+    font-style: italic;
 }
 .card .social {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 .card .social a {
     text-decoration: none !important;
     color: black;
-    margin-left: 8px;
     font-weight: 300;
 }
 .card .social a i {
@@ -121,7 +121,7 @@ body {
 
 
 :root {
-    --color-bg1: rgb(108, 0, 162);
+    --color-bg1: rgb(67, 0, 101);
     --color-bg2: rgb(0, 17, 82);
     --color1: 18, 113, 255;
     --color2: 221, 74, 255;
@@ -317,7 +317,10 @@ body {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 460px) {
-    .card {
+    /* .card {
         transform: rotate(90deg);
+    } */
+    * {
+        font-size: 12px;
     }
 }
