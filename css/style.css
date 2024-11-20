@@ -40,8 +40,8 @@ body {
 }
 
 .card .circle {
-    width: 150px;
-    height: 150px;
+    width: 164px;
+    height: 164px;
     background: black;
     position: absolute;
     right: 0px;
@@ -322,5 +322,10 @@ body {
     } */
     * {
         font-size: 12px;
+    }
+
+    .card .circle {
+        width: 128px;
+        height: 128px;
     }
 }
